@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="WeaponDisabled">
+        <InfoIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+</Catalog>
