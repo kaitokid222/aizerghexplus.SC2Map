@@ -1,5 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CEffectDamage id="90mmCannons2" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Ranged"/>
+        <Amount value="100"/>
+        <Death value="Blast"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="ArtanisVortexSearchArea">
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Structure,Missile,Item,Dead"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="GlaiveWurmE1">
+        <SearchFilters value="Visible;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="GlaiveWurmE2">
+        <SearchFilters value="Visible;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectEnumArea>
+    <CEffectSet id="KaraxPermanentPhaseCanon">
+        <EditorCategories value=""/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="MechaNeedleSpinesLM">
+        <ValidatorArray index="0" value="ZergProtectiveBaseMainAttackBarrier"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="MechaHydraNeedleSpineImpactSet"/>
+        <AmmoUnit value="MechaNeedleSpineMissile"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="MechaNeedleSpinesRangedDamage" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <AttributeFactor index="Armored" value="-0.25"/>
+        <Kind value="Ranged"/>
+        <Amount value="15"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ImpalerTentacleLM3v3">
+        <ValidatorArray index="0" value="SpineCrawlerLMTargetFilters"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="ImpalerTentacleU3v3"/>
+        <Flags index="Return" value="1"/>
+        <AmmoUnit value="SpineCrawlerWeapon3v3"/>
+        <ReturnDelay value="0.175"/>
+        <ReturnMovers Link="SpineCrawlerTentacleRetractShort" IfRangeLTE="3"/>
+        <ReturnMovers Link="SpineCrawlerTentacleRetractLong" IfRangeLTE="7"/>
+        <Movers Link="SpineCrawlerTentacleExtendShort" IfRangeLTE="3"/>
+        <Movers Link="SpineCrawlerTentacleExtendLong" IfRangeLTE="7"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="ImpalerTentacleU3v3" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Zerg"/>
+        <Kind value="Melee"/>
+        <Amount value="30"/>
+    </CEffectDamage>
+    <CEffectSet id="MechaShieldTick">
+        <EditorCategories value=""/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="HUGSAB">
+        <ValidatorArray index="0" value="HaveHUGS"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="HUGSAlgorythm"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="MechaHydraNeedleSpineImpactSet">
+        <EffectArray value="MechaNeedleSpinesRangedDamage"/>
+    </CEffectSet>
+    <CEffectCreateUnit id="PhaseCannon">
+        <SpawnEffect value="KaraxPermanentPhaseCanon"/>
+        <SpawnUnit index="0" value="KaraxPhotonCannon"/>
+    </CEffectCreateUnit>
+    <CEffectApplyBehavior id="ShieldActiveAB">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="MechaShieldActive"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ShieldRegenAB">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="MechaShield"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="SpawnMutaliskDummy3v3">
+        <EditorCategories value=""/>
+    </CEffectSet>
+    <CEffectEnumArea id="UnstableCoreExplodeSearchArea">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactLocation Value="SourceUnit"/>
+        <SearchFilters value="Ground;Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1.5" Effect="UnstableCoreExplodeDamage"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="UnstableCoreExplodeDamage" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <AINotifyFlags index="HurtEnemy" value="1"/>
+        <ImpactLocation Value="TargetUnit"/>
+        <Kind value="Splash"/>
+        <Amount value="15"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectSet id="MechalingUnstableCoreExplode">
+        <EffectArray value="UnstableCoreExplodeSearchArea"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="MechalingJUICEFix">
+        <EditorCategories value=""/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Energy">
+            <Change value="50"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectSet id="MechalingApplyUpgradesSet">
+        <EffectArray value="UnstableCoreAB"/>
+        <EffectArray value="HUGSAB"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="UsingJUICEAB">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="UsingJUICE"/>
+    </CEffectApplyBehavior>
     <CEffectModifyUnit id="Add1HP">
         <EditorCategories value="Race:Terran"/>
         <LaunchUnit Value="Caster"/>
@@ -14,6 +120,10 @@
     <CEffectSet id="AddProbiusPylonAttackAura">
         <EditorCategories value=""/>
     </CEffectSet>
+    <CEffectDamage id="MechaClawsDamage" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="5"/>
+    </CEffectDamage>
     <CEffectSet id="EggSpawnDummy">
         <EditorCategories value=""/>
     </CEffectSet>
@@ -34,6 +144,13 @@
         <WhichUnit Value="Caster"/>
         <Behavior value="EggClusterCooldown"/>
     </CEffectApplyBehavior>
+    <CEffectSet id="MechaClawsSet">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ZerglingFrenzy"/>
+        <EffectArray value="ZerglingSunder"/>
+        <EffectArray value="ZerglingRangeReapply"/>
+        <EffectArray value="MechaClawsDamage"/>
+    </CEffectSet>
     <CEffectDamage id="HydraliskNeedleSpinesRangedDamageEdit3v3" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <Kind value="Ranged"/>
@@ -49,6 +166,11 @@
     <CEffectSet id="SpawnLarvaDummy">
         <EditorCategories value=""/>
     </CEffectSet>
+    <CEffectApplyBehavior id="UnstableCoreAB">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="UnstableCore"/>
+        <ValidatorArray index="0" value="HaveUnstableCore"/>
+    </CEffectApplyBehavior>
     <CEffectDamage id="ZagaraNotOnCreepDamage3v3">
         <EditorCategories value="Race:Zerg"/>
         <Flags index="NoKillCredit" value="1"/>
@@ -63,7 +185,7 @@
         <EditorCategories value=""/>
         <AttributeBonus index="Structure" value="-5"/>
         <Visibility value="Visible"/>
-        <Amount value="5"/>
+        <Amount value="4"/>
         <Death value="Fire"/>
         <AreaArray Radius="1" Fraction="1"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -192,7 +314,7 @@
         <EditorCategories value=""/>
     </CEffectSet>
     <CEffectEnumArea id="VortexSearchArea">
-        <SearchFilters value="-;Self,Ally,Structure,Missile,Item,Dead,Hidden"/>
+        <SearchFilters value="-;Self,Player,Ally,Structure,Missile,Item,Dead,Hidden"/>
     </CEffectEnumArea>
     <CEffectSet id="ZCCCenter">
         <EditorCategories value=""/>
@@ -296,7 +418,7 @@
         <EditorCategories value=""/>
     </CEffectModifyPlayer>
     <CEffectDamage id="ServitorStrikeDamageA">
-        <AttributeBonus index="Armored" value="30"/>
+        <AttributeBonus index="Armored" value="0"/>
         <Amount value="30"/>
     </CEffectDamage>
     <CEffectCreateUnit id="CreateBloodBig2">
@@ -5192,6 +5314,7 @@
         <Cost Abil="TrainBrutalisk,Train1" ChargeCountUse="-1" CooldownOperation="Add"/>
         <Cost Abil="TrainInfestedMarine,Train1" ChargeCountUse="-1" CooldownOperation="Add"/>
         <Cost Abil="TrainBomber,Train1" ChargeCountUse="-1" CooldownOperation="Add"/>
+        <Cost Abil="CreepTowerTrain,Train1" ChargeCountUse="-1" CooldownOperation="Add"/>
     </CEffectModifyUnit>
     <CEffectDamage id="L1Rifle" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
-    <CRequirement id="12minutes">
-        <NodeArray index="Use" Link="GTE1640925980CountUpgradeMinuteUpgradeQueuedOrBetter12"/>
+    <CRequirement id="CasualTraderImprovement">
+        <NodeArray index="Use" Link="AndCountUpgradeCasualTraderImprovementCompleteOnly"/>
+        <NodeArray index="Show" Link="AndCountUpgradeCasualTraderImprovementCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ResearchZergSpecialtySlowlingPackedMass3v3">
+        <NodeArray index="Use" Link="Not445539353CountUpgradeZergSpecializationSlowlingPackedMass3v3CompleteOnly"/>
+        <NodeArray index="Show" Link="NotOrCountUpgradeZergSpecializationSlowlingPackedMass3v3QueuedOnlyCountUpgradeZergSpecializationSlowlingPackedMass3v3InProgressOnly"/>
+    </CRequirement>
+    <CRequirement id="ZagaraSporeCrawler">
+        <NodeArray index="Use" Link="GTE1280241940CountUpgradeMinuteUpgradeQueuedOrBetter15"/>
+    </CRequirement>
+    <CRequirement id="ZagaraCreepTumor">
+        <NodeArray index="Use" Link="GTE2085714489CountUpgradeMinuteUpgradeQueuedOrBetter10"/>
     </CRequirement>
     <CRequirement id="40Bunkers">
         <NodeArray index="Use" Link="LT2770029111SumCountUnitInfestedBunkerQueuedOrBetter60"/>
@@ -18,8 +29,8 @@
     <CRequirement id="Base1Alive">
         <NodeArray index="Show" Link="NotCountUpgradeBase1DeadCompleteOnly"/>
     </CRequirement>
-    <CRequirement id="CreepTower">
-        <NodeArray index="Use" Link="AndLTE2788488928CountUnitNydusCanalCreeperQueuedOrBetter4"/>
+    <CRequirement id="MechaTerrazineExtractor">
+        <NodeArray index="Use" Link="AndLT2436295806CountUnitMechaTerrazineExtractorQueuedOrBetter1LT2316682573CountUnitGreaterTerrazineExtractorQueuedOrBetter1"/>
     </CRequirement>
     <CRequirement id="Have100BloodStacksandnoLord">
         <NodeArray index="Use" Link="AndLT2011835200CountUnitChaosLordQueuedOrBetter1GTE2686350439CountBehaviorBloodStacksQueuedOrBetter100CountUpgradeTier2EquipmentCompleteOnly"/>
@@ -27,8 +38,20 @@
     <CRequirement id="Have100Blood">
         <NodeArray index="Use" Link="GTE1229494613CountBehaviorBloodStacksQueuedOrBetter100"/>
     </CRequirement>
+    <CRequirement id="HaveMechaUltralisk">
+        <NodeArray index="Use" Link="CountUpgradePZergMechaUltraliskUpgradeCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveMechalingJUICEModule">
+        <NodeArray index="Use" Link="CountUpgradeJUICEModuleCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveUnstableCore">
+        <NodeArray index="Use" Link="CountUpgradeUnstableCoreCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="HaveTier3andlessthan5defilers">
         <NodeArray index="Use" Link="AndCountUpgradeTier3EquipmentCompleteOnlyLT3699583646CountUnitChaosDefilerQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="HaveHUGS">
+        <NodeArray index="Use" Link="CountUpgradeHUGSAlgorythmCompleteOnly"/>
     </CRequirement>
     <CRequirement id="Is3v3">
         <NodeArray index="Use" Link="CountUpgradeMode3v3CompleteOnly"/>
@@ -36,8 +59,22 @@
     <CRequirement id="Isnot3v3">
         <NodeArray index="Use" Link="NotCountUpgradeMode3v3CompleteOnly"/>
     </CRequirement>
+    <CRequirement id="NydusUpgrade2">
+        <NodeArray index="Use" Link="AndCountUpgradeNydusUpgradeCompleteOnlyCountUpgradeZergArmor3CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeNydusUpgrade2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NydusUpgrade3">
+        <NodeArray index="Use" Link="AndCountUpgradeNydusUpgrade2CompleteOnlyCountUpgradeZergArmor5CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeNydusUpgrade3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="OmegaliskRequirement3v3">
+        <NodeArray index="Use" Link="And1487884178CountUpgradeHiveKilledCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="Only2Morales">
         <NodeArray index="Use" Link="LT3437118427CountUnitLoveMoralesQueuedOrBetter2"/>
+    </CRequirement>
+    <CRequirement id="OnlyOneMechaTechlab">
+        <NodeArray index="Use" Link="LT1676206664CountUnitMechaTechlabQueuedOrBetter1"/>
     </CRequirement>
     <CRequirement id="OnlyOneNydus">
         <NodeArray index="Use" Link="Not225427478CountUnitNydusCanalQueuedOrBetter"/>
@@ -45,8 +82,59 @@
     <CRequirement id="PlasmaCannonsRequirementBetterTank">
         <NodeArray index="Show" Link="NotCountUpgradePlasmaCannonsQueuedOrBetter"/>
     </CRequirement>
+    <CRequirement id="RequirementSelfRechargingBatteries">
+        <NodeArray index="Use" Link="AndCountUpgradeJUICEModuleCompleteOnlyCountUpgradeZergArmor2CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeSelfRecharchingBatteriesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementMechaUltraliskUpgrade">
+        <NodeArray index="Show" Link="NotCountUpgradePZergMechaUltraliskUpgradeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementMechalingDurability">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor1CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeMechalingDurabilityQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementHydralicAugment">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor1CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeHydralicAugmentQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NydusUpgrade">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor1CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeNydusUpgradeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementSynteticAdrenalPumps">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor1CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeSynteticAdrenalPumpsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementMechalingJUICEModule">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor2CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeJUICEModuleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementMechalingImprovedLiquids">
+        <NodeArray index="Use" Link="AndCountUpgradeJUICEModuleCompleteOnlyCountUpgradeZergArmor5CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeImprovedLiquidsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementMetalbolicBoost">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor3CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeMetalbolicBoostQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementRecyclingProtocol">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor2CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeRecyclingProtocolQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementRecyclingProtocol2">
+        <NodeArray index="Use" Link="AndCountUpgradeRecyclingProtocolCompleteOnlyCountUpgradeZergArmor4CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeRecyclingProtocol2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementUnstableCore">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor5CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeUnstableCoreQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RequirementHUGS">
+        <NodeArray index="Use" Link="AndCountUpgradeZergArmor3CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeHUGSAlgorythmQueuedOrBetter"/>
+    </CRequirement>
     <CRequirement id="SiegeTankBetterVersion">
-        <NodeArray index="Use" Link="AndEqCountUpgradeSiegeTankBetterVersionCompleteOnly1"/>
+        <NodeArray index="Use" Link="AndEq3508156677CountUpgradeSiegeTankBetterVersionCompleteOnly1"/>
     </CRequirement>
     <CRequirement id="SpawnFirelings">
         <NodeArray index="Use" Link="LT459509116CountBehaviorFirelingCountDummyStackQueuedOrBetter80"/>
@@ -64,7 +152,7 @@
         <NodeArray index="Use" Link="GTE2722478423CountBehaviorBloodStacksQueuedOrBetter10"/>
     </CRequirement>
     <CRequirement id="OnlyOneHiveMindEmulator">
-        <NodeArray index="Use" Link="Not4164847767CountUnitHiveMindEmulatorQueuedOrBetter"/>
+        <NodeArray index="Use" Link="AndNot143893411CountUnitHiveMindEmulatorQueuedOrBetterNot542624544CountUpgradeOtherTeamDeadCompleteOnly"/>
     </CRequirement>
     <CRequirement id="OnlyOneProbius">
         <NodeArray index="Use" Link="Not225427478CountUnitProbiusQueuedOrBetter"/>
@@ -329,6 +417,9 @@
     <CRequirement id="NotHavelotsofbloodreq">
         <NodeArray index="Use" Link="NotCountUpgradeLotsofBloodCompleteOnly"/>
     </CRequirement>
+    <CRequirement id="Only5Larva">
+        <NodeArray index="Use" Link="LT1405264593CountBehaviorLarvaCountDummyStackQueuedOrBetter5"/>
+    </CRequirement>
     <CRequirement id="SpawnFromLeft">
         <NodeArray index="Use" Link="AndLTCountBehaviorSpawnFromLeftCompleteOnlyAtUnit1"/>
     </CRequirement>
@@ -339,7 +430,7 @@
         <NodeArray index="Use" Link="AndLTCountBehaviorSpawnFromRightCompleteOnlyAtUnit1"/>
     </CRequirement>
     <CRequirement id="TerrazineConverter">
-        <NodeArray index="Use" Link="AndCountUnitHiveMindEmulatorCompleteOnly1351179563"/>
+        <NodeArray index="Use" Link="AndCountUpgradeOtherTeamDeadCompleteOnly411158712"/>
     </CRequirement>
     <CRequirement id="TerrazineDoubler2Requirement">
         <NodeArray index="Use" Link="CountUpgradeTerrazineIncomex2CompleteOnly"/>
@@ -428,7 +519,7 @@
         <NodeArray index="Show" Link="CountUpgradeUnifiedArmorCompleteOnly"/>
     </CRequirement>
     <CRequirement id="HaveZergSpecialtySlowlingPackedMass">
-        <NodeArray index="Use" Link="CountUpgradeZergSpecializationSlowlingPackedMassCompleteOnly"/>
+        <NodeArray index="Use" Link="OrCountUpgradeZergSpecializationSlowlingPackedMassCompleteOnlyCountUpgradeZergSpecializationSlowlingPackedMass3v3CompleteOnly"/>
     </CRequirement>
     <CRequirement id="HaveZergSpecialtyStrikelingDualHit">
         <NodeArray index="Use" Link="CountUpgradeZergSpecializationStrikelingDualHitCompleteOnly"/>
@@ -725,8 +816,11 @@
     <CRequirement id="ZCCHasCreeperFerocity">
         <NodeArray index="Use" Link="NotCountUpgradeZergSpecializationCreeperFerocityCompleteOnly"/>
     </CRequirement>
-    <CRequirement id="ZergControlCenter">
-        <NodeArray index="Use" Link="CountUnitHiveMindEmulatorCompleteOnly"/>
+    <CRequirement id="HydraliskDefender">
+        <NodeArray index="Use" Link="AndCountUnitHiveMindEmulatorCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="KaraxPhaseCannon">
+        <NodeArray index="Use" Link="GTE3867355700CountUpgradeMinuteUpgradeQueuedOrBetter11"/>
     </CRequirement>
     <CRequirement id="ZergRallyEqual">
         <NodeArray index="Use" Link="LTCountBehaviorZergRallyEqualCompleteOnlyAtUnit4553906971455390697"/>

@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CBehaviorBuff id="HUGSAlgorythm">
+        <InfoIcon value="Assets\Textures\btn-upgrade-stetmann-mechaventralsacs.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MechaShieldActive">
+        <InfoIcon value="Assets\Textures\btn-ability-stetmann-banelingmanashield.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="HasShieldLeft"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SiegeTankDisableWeapon">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="SiegeTankNotBetterVersion"/>
+        <Modification>
+            <WeaponDisableArray value="90mmCannons2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SiegeTankExpertise">
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <MaxStackCount value="30"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="UsingJUICE">
+        <InfoIcon value="Assets\Textures\btn-ability-stetmann-stetelliteoverloadhealth.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="20"/>
+        </Modification>
+    </CBehaviorBuff>
     <CBehaviorBuff id="AdeptWeaponRedirect">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <DisableValidatorArray value="AdeptTargetIsDead"/>
@@ -90,6 +120,16 @@
         <DisplayDuration index="Enemy" value="1"/>
         <Duration value="15"/>
     </CBehaviorBuff>
+    <CBehaviorBuff id="HiveKilled">
+        <InfoIcon value="Assets\Textures\btn-research-zerg-hivemindemulator.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LarvaCountDummyStack">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-unit-zerg-larvalqueen.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <MaxStackCount value="1000"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="IsZCC">
         <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -103,6 +143,26 @@
         <DamageResponse ClampMaximum="1" Minimum="1">
             <Chance value="1"/>
         </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MechalingJuiceFix">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HaveJUICEUpgrade"/>
+        <Period value="0.1"/>
+        <FinalEffect value="MechalingJUICEFix"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="UnstableCore">
+        <InfoIcon value="Assets\Textures\btn-upgrade-stetmann-banelingextradamage.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MechaShield">
+        <InfoIcon value="Assets\Textures\btn-ability-stetmann-banelingmanashield.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="4"/>
+        <FinalEffect value="ShieldActiveAB"/>
+        <Modification>
+            <VitalRegenArray index="Shields" value="110"/>
+        </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="ZagaraAutoTransfuse3v3">
         <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
@@ -207,7 +267,7 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <DisableValidatorArray value="PlayerHasGTE40Terrazine"/>
         <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
-        <Period value="5"/>
+        <Period value="3"/>
         <PeriodicEffect value="ConvertTerrazineConverterText"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="EggClusterB">
@@ -235,7 +295,7 @@
     </CBehaviorBuff>
     <CBehaviorBuff id="SiegeTankFragmentBlastFireTimedLife" parent="TimedLife">
         <EditorCategories value="AbilityorEffectType:Units"/>
-        <Duration value="15"/>
+        <Duration value="12"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="SpawnFromCenter">
         <InfoIcon value="Assets\Textures\btn-building-zerg-hive.dds"/>
@@ -249,7 +309,7 @@
         <InfoIcon value="Assets\Textures\cursor-edgescroll-right-zerg.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
     </CBehaviorBuff>
-    <CBehaviorBuff id="TorraliskRoachCountDummyStack">
+    <CBehaviorBuff id="TorraliskCountDummyStack">
         <InfoFlags index="Hidden" value="1"/>
         <InfoIcon value="Assets\Textures\btn-unit-zerg-ultralisk-torrasque.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -712,7 +772,7 @@
     </CBehaviorBuff>
     <CBehaviorBuff id="ProdigalEngineerProductionTarget">
         <DisableValidatorArray index="0" removed="1"/>
-        <Modification TimeScale="2"/>
+        <Modification TimeScale="1.5"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="ScannerSweepTimed">
         <EditorCategories value="AbilityorEffectType:Units"/>

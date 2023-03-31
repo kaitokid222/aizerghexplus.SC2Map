@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CButton id="EnableJUICEModule">
+        <Icon value="Assets\Textures\btn-ability-stetmann-stetelliteoverloadenergy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-stetmann-stetelliteoverloadenergy.dds"/>
+    </CButton>
+    <CButton id="ExtractTerrazinex5">
+        <Icon value="Assets\Textures\btn-tips-droppedterrazine.dds"/>
+    </CButton>
+    <CButton id="ExtractTerrazineNydus">
+        <Icon value="Assets\Textures\btn-tips-droppedterrazine.dds"/>
+    </CButton>
+    <CButton id="KaraxHeroic">
+        <Icon value="Assets\Textures\btn-hero-karax.dds"/>
+    </CButton>
+    <CButton id="ImprovedLiquids">
+        <Icon value="Assets\Textures\btn-progression-stetmann-09-dualqueue.dds"/>
+        <AlertIcon value="Assets\Textures\btn-progression-stetmann-09-dualqueue.dds"/>
+    </CButton>
+    <CButton id="BuildMechaHydralisk">
+        <Icon value="Assets\Textures\btn-unit-zerg-hydralisk-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-hydralisk-mecha.dds"/>
+    </CButton>
+    <CButton id="HydralicAugment">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechamuscularaugments.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechamuscularaugments.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="MetalbolicBoost"/>
+    </CButton>
+    <CButton id="MutateintoGreaterTerrazineExtractor">
+        <Icon value="Assets\Textures\btn-building-zerg-greaterspire-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-greaterspire-mecha.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="NydusUpgrade2">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-lairstetellitebonus.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-lairstetellitebonus.dds"/>
+        <HotkeyAlias value="NydusUpgrade"/>
+    </CButton>
+    <CButton id="NydusUpgrade3">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-hivestetellitebonus.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-hivestetellitebonus.dds"/>
+        <HotkeyAlias value="NydusUpgrade"/>
+    </CButton>
+    <CButton id="PowerFieldKarax">
+        <Icon value="Assets\Textures\btn-ability-protoss-shieldcapacitor.dds"/>
+    </CButton>
+    <CButton id="ResearchZergAttack3v3">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+    </CButton>
+    <CButton id="SelfRechargingBatteries">
+        <Icon value="Assets\Textures\btn-ability-stetmann-garyattackandregen.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-stetmann-garyattackandregen.dds"/>
+    </CButton>
+    <CButton id="NydusUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-hatcherystetellitebonus.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-hatcherystetellitebonus.dds"/>
+    </CButton>
+    <CButton id="MutateintoMechaTechlab">
+        <Icon value="Assets\Textures\btn-building-zerg-evolutionchamber-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-evolutionchamber-mecha.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value=""/>
+    </CButton>
+    <CButton id="SiegeTankExpertise">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+    </CButton>
+    <CButton id="SiegeTankExpertiseWeapon">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <HotkeyAlias value="SiegeTankExpertise"/>
+    </CButton>
+    <CButton id="SpawnMutalisk3v3">
+        <Icon value="Assets\Textures\btn-unit-zerg-mutalisk-mecha.dds"/>
+    </CButton>
+    <CButton id="SpawnOmegaliskCocoon3v3">
+        <Icon value="Assets\Textures\btn-unit-zerg-omegalisk.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-omegalisk.dds"/>
+    </CButton>
+    <CButton id="LarvaSpawnOmegaliskCocoon3v3">
+        <Icon value="Assets\Textures\btn-unit-zerg-omegalisk.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-omegalisk.dds"/>
+        <HotkeyAlias value="SpawnOmegaliskCocoon3v3"/>
+    </CButton>
+    <CButton id="SynteticAdrenalPumps">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechaadrenalglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechaadrenalglands.dds"/>
+    </CButton>
+    <CButton id="UnstableCore">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-banelingextradamage.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-banelingextradamage.dds"/>
+    </CButton>
+    <CButton id="InstallHUGSAlgorythm">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechaventralsacs.dds"/>
+        <HotkeyAlias value="UnstableCore"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechaventralsacs.dds"/>
+    </CButton>
+    <CButton id="UseJUICEtoheal">
+        <Icon value="Assets\Textures\btn-ability-stetmann-stetelliteoverloadhealth.dds"/>
+    </CButton>
     <CButton id="AcidSpores">
         <Icon value="Assets\Textures\btn-ability-zerg-corrosiveblast.dds"/>
     </CButton>
@@ -92,17 +190,56 @@
         <AlertIcon value="Assets\Textures\btn-unit-protoss-probe.dds"/>
         <EditorCategories value="Race:Protoss"/>
     </CButton>
+    <CButton id="MetalbolicBoost">
+        <Icon value="Assets\Textures\btn-upgrade-stetmann-mechametabolicboost.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-stetmann-mechametabolicboost.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="MechalingDurability">
+        <Icon value="Assets\Textures\btn-progression-stetmann-15-supergarytransform.dds"/>
+        <AlertIcon value="Assets\Textures\btn-progression-stetmann-15-supergarytransform.dds"/>
+    </CButton>
+    <CButton id="RecyclingProtocol2">
+        <Icon value="Assets\Textures\btn-progression-stetmann-13-zerglingscrapdropbonus.dds"/>
+        <Placeholder value="1"/>
+        <AlertIcon value="Assets\Textures\btn-progression-stetmann-13-zerglingscrapdropbonus.dds"/>
+    </CButton>
+    <CButton id="MechaInfestorUpgradeCache">
+        <Icon value="Assets\Textures\btn-progression-stetmann-10-infestorupgradecache.dds"/>
+        <Placeholder value="1"/>
+        <AlertIcon value="Assets\Textures\btn-progression-stetmann-10-infestorupgradecache.dds"/>
+    </CButton>
+    <CButton id="RecyclingProtocol">
+        <Icon value="Assets\Textures\btn-progression-stetmann-05-scrapdrop.dds"/>
+        <Placeholder value="1"/>
+        <AlertIcon value="Assets\Textures\btn-progression-stetmann-05-scrapdrop.dds"/>
+    </CButton>
+    <CButton id="ExtractTerrazine">
+        <Icon value="Assets\Textures\btn-tips-droppedterrazine.dds"/>
+    </CButton>
     <CButton id="MutateintoMechaSpineCrawler">
         <Icon value="Assets\Textures\btn-building-zerg-spinecrawler-mecha.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-zerg-spinecrawler-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
-    <CButton id="NydusCanal"/>
+    <CButton id="MutateintoMechaTerrazineExtractor">
+        <Icon value="Assets\Textures\btn-building-zerg-spire-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-spire-mecha.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="NydusCanal">
+        <Icon value="Assets\Textures\btn-building-zerg-nydusnetwork-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-nydusnetwork-mecha.dds"/>
+    </CButton>
     <CButton id="Pylon"/>
     <CButton id="PylonClassic">
         <Icon value="Assets\Textures\btn-building-protoss-pylon.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-protoss-pylon.dds"/>
         <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchMechaUltralisk">
+        <Icon value="Assets\Textures\btn-unit-collection-ultralisk-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-ultralisk-mecha.dds"/>
     </CButton>
     <CButton id="SpawnLarva3v3">
         <Icon value="Assets\Textures\btn-unit-zerg-larvalqueen.dds"/>
@@ -112,11 +249,34 @@
         <Icon value="Assets\Textures\btn-unit-zerg-primalzergling.dds"/>
     </CButton>
     <CButton id="SpawnMenuSmall">
-        <Icon value="Assets\Textures\btn-unit-zerg-zergling.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-zergling.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-zergling-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-zergling-mecha.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="BuildMechaSlowling">
+        <Icon value="Assets\Textures\btn-unit-zerg-zergling-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-zergling-mecha.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="BuildMechaUltralisk">
+        <Icon value="Assets\Textures\btn-unit-zerg-ultralisk-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-ultralisk-mecha.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="MechaUpgradeMenu">
+        <Icon value="Assets\Textures\btn-unit-zerg-zerglingupgrade-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-zerglingupgrade-mecha.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="BuildMechaling">
+        <Icon value="Assets\Textures\btn-unit-zerg-zerglingupgrade-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-zerglingupgrade-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="SummonNydusCanalCreeper"/>
+    <CButton id="UseJUICEtoRegenerateShield">
+        <Icon value="Assets\Textures\btn-ability-stetmann-banelingmanashield.dds"/>
+    </CButton>
     <CButton id="WarpInMineralGenerator">
         <Icon value="Assets\Textures\btn-building-protoss-forge.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-protoss-forge.dds"/>
@@ -128,8 +288,8 @@
         <AlertIcon value="assets\icon\ICON Defiler.dds"/>
     </CButton>
     <CButton id="HydraliskDefender3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-hydralisk-impaler.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-hydralisk-impaler.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-hydralisk-rcz.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-hydralisk-rcz.dds"/>
         <Hotkey value="Button/Hotkey/Hydralisk"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
@@ -174,8 +334,11 @@
         <AlertIcon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
+    <CButton id="ZagaraHeroic">
+        <Icon value="Assets\Textures\btn-hero-niadra.dds"/>
+    </CButton>
     <CButton id="ZergUpgrades">
-        <Icon value="Assets\Textures\btn-ability-zerg-leech.dds"/>
+        <Icon value="Assets\Textures\btn-building-zerg-evolutionchamber-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="ResearchZergArmor13v3">
@@ -208,18 +371,18 @@
         <HotkeyAlias value="ResearchZergMovement"/>
     </CButton>
     <CButton id="SpawnCreeper3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-slivanminion.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-slivanminion.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-creeperhostspawnflyer-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-creeperhostspawnflyer-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="SpawnSlowling3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-zergling.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-zergling.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-zergling-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-zergling-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="SpawnStrikeling3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-symbiote.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-symbiote.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-symbiote-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-symbiote-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="TrainLoveMorales">
@@ -232,9 +395,9 @@
         <AlertIcon value="Assets\Textures\btn-upgrade-zagara-scourgegasreduction.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
-    <CButton id="SpawnBanelingGroup">
-        <Icon value="Assets\Textures\btn-unit-zerg-baneling.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-baneling.dds"/>
+    <CButton id="SpawnBaneling3v3">
+        <Icon value="Assets\Textures\btn-unit-collection-baneling-mecha.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-collection-baneling-mecha.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="SpawnBeastling3v3">
@@ -244,19 +407,19 @@
         <Icon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
     </CButton>
     <CButton id="SpawnInfestor3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-infestor.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-infestor-mecha.dds"/>
     </CButton>
     <CButton id="SpawnPrimalRoach3v3">
         <Icon value="Assets\Textures\btn-unit-zerg-primalroach.dds"/>
     </CButton>
     <CButton id="SpawnRoach3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-roach.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-roach-mecha.dds"/>
     </CButton>
     <CButton id="SpawnTankling3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-locust.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-creeperhostspawn-mecha.dds"/>
     </CButton>
     <CButton id="SpawnUltra3v3">
-        <Icon value="Assets\Textures\btn-unit-zerg-ultralisk.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-ultralisk-mecha.dds"/>
     </CButton>
     <CButton id="TerrazineIncomex2">
         <Icon value="Assets\Textures\btn-tips-droppedterrazine.dds"/>

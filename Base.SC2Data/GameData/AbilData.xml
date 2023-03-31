@@ -1,5 +1,281 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CAbilBuild id="BuildOmegaliskCocoon3v3">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <TargetMessage value="Abil/TargetMessage/BuildOmegaliskCocoon3v3"/>
+        <SharedFlags index="RegisterChargeEvent" value="1"/>
+        <SharedFlags index="RegisterCooldownEvent" value="1"/>
+        <DataCollection value="CreepTumorBuild"/>
+        <Alert value="BuildComplete_Zerg"/>
+        <InfoArray index="Build1" Unit="OmegaliskCocoon2">
+            <Resource index="Minerals" value="1000"/>
+            <Resource index="Vespene" value="500"/>
+            <Resource index="Terrazine" value="8000"/>
+            <Charge Link="Abil/CreepTumorBuild" Location="Unit"/>
+            <Cooldown Link="Abil/CreepTumorBuild" Location="Unit" TimeUse="1"/>
+            <Button DefaultButtonFace="SpawnOmegaliskCocoon" Requirements="OmegaliskRequirement3v3"/>
+        </InfoArray>
+        <InfoArray index="Build2">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build3">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build4">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build5">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build6">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build7">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build8">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build9">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build10">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build11">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build12">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build13">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build14">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build15">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build16">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build17">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build18">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build19">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build20">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build21">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build22">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build23">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build24">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build25">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build26">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build27">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build28">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build29">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+        <InfoArray index="Build30">
+            <Charge Link="Abil/CreepTumorBuild"/>
+            <Cooldown Link="Abil/CreepTumorBuild"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilEffectTarget id="KaraxTeleport">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Activity value="Abil/ItalisTeleport/Activity"/>
+        <Effect index="0" value="ItalisTeleport"/>
+        <Flags index="BestUnit" value="0"/>
+        <Cost>
+            <Cooldown TimeStart="30" TimeUse="30"/>
+        </Cost>
+        <InterruptArray index="Cast" value="1"/>
+        <InterruptCost>
+            <Cooldown TimeUse="5"/>
+        </InterruptCost>
+        <TargetFilters value="Ground,Structure,Visible;Self,Neutral,Enemy,Missile,Dead,Hidden"/>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <TrackingArc value="360"/>
+        <CastIntroTime value="2"/>
+        <FinishTime value="5"/>
+        <ShowProgressArray index="Cast" value="1"/>
+        <ShowProgressArray index="Finish" value="1"/>
+        <UninterruptibleArray index="Prep" value="1"/>
+        <UninterruptibleArray index="Channel" value="1"/>
+        <UninterruptibleArray index="Finish" value="1"/>
+        <AINotifyEffect value="ItalisTeleport"/>
+        <ProgressButtonArray index="Cast" value="ItalisTeleport"/>
+        <ProgressButtonArray index="Finish" value="ItalisTeleport"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ItalisTeleport"/>
+    </CAbilEffectTarget>
+    <CAbilMorph id="MorphBuildingExtractorGreater3v3">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MutateintoGreaterTerrazineExtractor" State="Suppressed"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="CancelMutateMorph"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GreaterTerrazineExtractor">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="20"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="20"/>
+            </SectionArray>
+            <SectionArray index="Facing">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="20"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="MorphComplete_Zerg"/>
+        <Activity value="UI/Mutating"/>
+    </CAbilMorph>
+    <CAbilEffectTarget id="PhaseCannon">
+        <CmdButtonArray index="Execute" Requirements="KaraxPhaseCannon"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PowerFieldKarax">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="TechLabPowerFieldSet"/>
+        <Cost>
+            <Cooldown TimeUse="20"/>
+        </Cost>
+        <Range value="9"/>
+        <Arc value="360"/>
+        <CursorEffect value="TechLabPowerFieldSearch"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PowerFieldKarax"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="SpawnMutalisk3v3">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="SpawnMutaliskDummy3v3"/>
+        <Cost>
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Terrazine" value="800"/>
+            <Charge>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
+                <CountUse value="1"/>
+                <TimeStart value="10"/>
+                <TimeUse value="-1"/>
+            </Charge>
+            <Cooldown Location="Unit"/>
+        </Cost>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="-;-"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpawnMutalisk3v3" Requirements="RequirementArmor5"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="TraderFlight">
+        <Alignment value="Positive"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="ReaperFlightLeapInitialSet"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Cooldown TimeUse="10"/>
+        </Cost>
+        <Range value="500"/>
+        <EffectRange index="0" value="1,10"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Flight2" Requirements="CasualTraderImprovement"/>
+    </CAbilEffectTarget>
+    <CAbilTrain id="TrainTradersCasual">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Train1">
+            <Charge>
+                <CountMax value="10"/>
+                <CountUse value="1"/>
+                <TimeStart value="360"/>
+                <TimeUse value="10"/>
+            </Charge>
+            <Cooldown Location="Unit" TimeStart="360"/>
+            <Button DefaultButtonFace="BuildMineralTrader" Requirements="CasualTraderImprovement"/>
+            <Unit value="MineralTrader"/>
+            <Flags index="AutoCast" value="1"/>
+        </InfoArray>
+        <InfoArray index="Train2">
+            <Charge>
+                <CountMax value="10"/>
+                <CountUse value="1"/>
+                <TimeStart value="360"/>
+                <TimeUse value="10"/>
+            </Charge>
+            <Cooldown Location="Unit" TimeStart="360"/>
+            <Button DefaultButtonFace="BuildGasTrader" Requirements="CasualTraderImprovement"/>
+            <Unit value="GasTrader"/>
+            <Flags index="AutoCast" value="1"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilEffectInstant id="UseJUICEtoheal">
+        <Alignment value="Positive"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Zerg"/>
+        <Effect index="0" value="UsingJUICEAB"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Energy" value="25"/>
+            <Cooldown TimeUse="5"/>
+        </Cost>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="Visible;Ally,Neutral,Enemy"/>
+        <AutoCastValidatorArray value="LifeLE50Perc"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UseJUICEtoheal" Requirements="HaveMechalingJUICEModule"/>
+    </CAbilEffectInstant>
     <CAbilEffectInstant id="3v3SpawnInfusedRoach2">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="SpawnInfusedDummy"/>
@@ -8,8 +284,8 @@
             <Resource index="Terrazine" value="850"/>
             <Vital index="Energy" value="700"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeUse value="-1"/>
             </Charge>
@@ -26,8 +302,8 @@
             <Resource index="Terrazine" value="550"/>
             <Vital index="Energy" value="400"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeUse value="-1"/>
             </Charge>
@@ -44,8 +320,8 @@
             <Resource index="Terrazine" value="3000"/>
             <Vital index="Energy" value="1000"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeUse value="-1"/>
             </Charge>
@@ -109,7 +385,7 @@
             <Vital index="Energy" value="300"/>
             <Charge Link="Abil/CreepTumorBuild" Location="Unit"/>
             <Cooldown Link="Abil/CreepTumorBuild" Location="Unit"/>
-            <Button DefaultButtonFace="SpawnSporeCrawler" Requirements="12minutes"/>
+            <Button DefaultButtonFace="SpawnSporeCrawler" Requirements="ZagaraSporeCrawler"/>
         </InfoArray>
         <InfoArray index="Build2">
             <Charge Link="Abil/CreepTumorBuild"/>
@@ -268,8 +544,8 @@
     </CAbilResearch>
     <CAbilEffectTarget id="ArtanisVortex">
         <Cost index="0">
-            <Vital index="Energy" value="100"/>
-            <Cooldown TimeUse="15"/>
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="45"/>
         </Cost>
     </CAbilEffectTarget>
     <CAbilResearch id="CCSkinSwitcher">
@@ -481,6 +757,69 @@
         <AutoCastValidatorArray value="TargetisBloodCombined"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="Eat"/>
     </CAbilEffectTarget>
+    <CAbilResearch id="PlayerZergResearch">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Time="30" Upgrade="PZergMechaUltraliskUpgrade">
+            <Resource index="Vespene" value="600"/>
+            <Button DefaultButtonFace="ResearchMechaUltralisk" Requirements="RequirementMechaUltraliskUpgrade"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="MechalingDurability">
+            <Vital index="Energy" value="150"/>
+            <Button DefaultButtonFace="MechalingDurability" Requirements="RequirementMechalingDurability"/>
+        </InfoArray>
+        <InfoArray index="Research3" Upgrade="RecyclingProtocol">
+            <Vital index="Energy" value="180"/>
+            <Button DefaultButtonFace="RecyclingProtocol" Requirements="RequirementRecyclingProtocol"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="RecyclingProtocol2">
+            <Vital index="Energy" value="180"/>
+            <Button DefaultButtonFace="RecyclingProtocol2" Requirements="RequirementRecyclingProtocol2"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="MetalbolicBoost">
+            <Vital index="Energy" value="300"/>
+            <Button DefaultButtonFace="MetalbolicBoost" Requirements="RequirementMetalbolicBoost"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="JUICEModule">
+            <Vital index="Energy" value="420"/>
+            <Button DefaultButtonFace="EnableJUICEModule" Requirements="RequirementMechalingJUICEModule"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="ImprovedLiquids">
+            <Vital index="Energy" value="300"/>
+            <Button DefaultButtonFace="ImprovedLiquids" Requirements="RequirementMechalingImprovedLiquids"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="SynteticAdrenalPumps">
+            <Vital index="Energy" value="120"/>
+            <Button DefaultButtonFace="SynteticAdrenalPumps" Requirements="RequirementSynteticAdrenalPumps"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="UnstableCore">
+            <Vital index="Energy" value="420"/>
+            <Button DefaultButtonFace="UnstableCore" Requirements="RequirementUnstableCore"/>
+        </InfoArray>
+        <InfoArray index="Research10" Upgrade="HUGSAlgorythm">
+            <Vital index="Energy" value="180"/>
+            <Button DefaultButtonFace="InstallHUGSAlgorythm" Requirements="RequirementHUGS"/>
+        </InfoArray>
+        <InfoArray index="Research11" Upgrade="HydralicAugment">
+            <Vital index="Energy" value="240"/>
+            <Button DefaultButtonFace="HydralicAugment" Requirements="RequirementHydralicAugment"/>
+        </InfoArray>
+        <InfoArray index="Research12" Upgrade="SelfRecharchingBatteries">
+            <Vital index="Energy" value="360"/>
+            <Button DefaultButtonFace="SelfRechargingBatteries" Requirements="RequirementSelfRechargingBatteries"/>
+        </InfoArray>
+        <InfoArray index="Research13" Upgrade="NydusUpgrade">
+            <Vital index="Energy" value="240"/>
+            <Button DefaultButtonFace="NydusUpgrade" Requirements="NydusUpgrade"/>
+        </InfoArray>
+        <InfoArray index="Research14" Upgrade="NydusUpgrade2">
+            <Vital index="Energy" value="300"/>
+            <Button DefaultButtonFace="NydusUpgrade2" Requirements="NydusUpgrade2"/>
+        </InfoArray>
+        <InfoArray index="Research15" Upgrade="NydusUpgrade3">
+            <Vital index="Energy" value="540"/>
+            <Button DefaultButtonFace="NydusUpgrade3" Requirements="NydusUpgrade3"/>
+        </InfoArray>
+    </CAbilResearch>
     <CAbilEffectTarget id="PickupBlood">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
         <Flags index="AutoCast" value="1"/>
@@ -519,22 +858,26 @@
     <!--                                                                                        -->
     <CAbilBuild id="QueenBuild">
         <InfoArray index="Build1">
+            <Vital index="Energy" value="300"/>
             <Cooldown TimeUse="8"/>
+            <Button Requirements="ZagaraCreepTumor"/>
         </InfoArray>
     </CAbilBuild>
     <CAbilEffectInstant id="SpawnBanelingGroup">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="SpawnBanelingsDummy"/>
         <Cost>
-            <Resource index="Terrazine" value="650"/>
+            <Resource index="Minerals" value="45"/>
+            <Resource index="Terrazine" value="240"/>
             <Charge>
-                <CountMax value="5"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
-                <TimeStart value="60"/>
-                <TimeUse value="60"/>
+                <TimeStart value="10"/>
+                <TimeUse value="-1"/>
             </Charge>
         </Cost>
-        <CmdButtonArray index="Execute" DefaultButtonFace="SpawnBanelingGroup" Requirements="RequirementArmor4"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpawnBaneling3v3" Requirements="RequirementArmor3"/>
         <AutoCastAcquireLevel value="Defensive"/>
         <AutoCastFilters value="-;-"/>
     </CAbilEffectInstant>
@@ -545,8 +888,8 @@
             <Resource index="Minerals" value="16"/>
             <Resource index="Terrazine" value="85"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeUse value="-1"/>
             </Charge>
@@ -559,12 +902,13 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="SpawnInfestorDummy"/>
         <Cost>
-            <Resource index="Terrazine" value="300"/>
+            <Resource index="Terrazine" value="250"/>
+            <Vital index="Energy" value="100"/>
             <Charge>
                 <CountMax value="5"/>
                 <CountUse value="1"/>
-                <TimeStart value="45"/>
-                <TimeUse value="45"/>
+                <TimeStart value="5"/>
+                <TimeUse value="5"/>
             </Charge>
         </Cost>
         <CmdButtonArray index="Execute" DefaultButtonFace="SpawnInfestor3v3" Requirements="RequirementArmor1"/>
@@ -592,11 +936,11 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="SpawnBeastlingDummy3v3"/>
         <Cost>
-            <Resource index="Minerals" value="80"/>
-            <Resource index="Terrazine" value="400"/>
+            <Resource index="Minerals" value="48"/>
+            <Resource index="Terrazine" value="210"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeStart value="10"/>
                 <TimeUse value="-1"/>
@@ -618,7 +962,7 @@
                 <TimeUse value="2"/>
             </Charge>
         </Cost>
-        <CmdButtonArray index="Execute" DefaultButtonFace="SpawnLarva3v3"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpawnLarva3v3" Requirements="Only5Larva"/>
     </CAbilEffectInstant>
     <CAbilEffectInstant id="SpawnSlowling">
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -627,8 +971,8 @@
             <Resource index="Minerals" value="16"/>
             <Resource index="Terrazine" value="70"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeUse value="-1"/>
             </Charge>
@@ -658,11 +1002,11 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="SpawnUltraDummy3v3"/>
         <Cost>
-            <Resource index="Minerals" value="72"/>
-            <Resource index="Terrazine" value="320"/>
+            <Resource index="Minerals" value="75"/>
+            <Resource index="Terrazine" value="400"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeStart value="10"/>
                 <TimeUse value="-1"/>
@@ -680,8 +1024,8 @@
             <Resource index="Minerals" value="35"/>
             <Resource index="Terrazine" value="170"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeStart value="10"/>
                 <TimeUse value="-1"/>
@@ -718,8 +1062,8 @@
             <Resource index="Minerals" value="20"/>
             <Resource index="Terrazine" value="110"/>
             <Charge>
-                <CountMax value="15"/>
-                <CountStart value="15"/>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
                 <CountUse value="1"/>
                 <TimeStart value="10"/>
                 <TimeUse value="-1"/>
@@ -734,7 +1078,7 @@
         <Cost index="0">
             <Vital index="Life" value="20"/>
         </Cost>
-        <CmdButtonArray index="Execute" Requirements=""/>
+        <CmdButtonArray index="Execute" Requirements="UseOvercharge"/>
     </CAbilEffectInstant>
     <CAbilEffectTarget id="OverchargeSpawner">
         <Alignment value="Positive"/>
@@ -768,6 +1112,48 @@
         </Cost>
         <CmdButtonArray index="Execute" DefaultButtonFace="Spawn5Firelings" Requirements="SpawnFirelings"/>
     </CAbilEffectInstant>
+    <CAbilTrain id="BuildMechaSlowling">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Flags index="AutoCastOffOwnerLeave" value="0"/>
+        <Flags index="IgnoreUnitCost" value="1"/>
+        <Flags index="WaitForFood" value="0"/>
+        <InfoArray index="Train1" Time="4" Effect="ApplyPrecursorSpawner">
+            <Charge>
+                <CountMax value="4"/>
+                <CountStart value="2"/>
+                <CountUse value="1"/>
+                <Link value="Abil/TrainSpawner"/>
+                <Location value="Unit"/>
+            </Charge>
+            <Cooldown Link="Abil/TrainSpawner" TimeUse="1"/>
+            <Button DefaultButtonFace="BuildMechaSlowling"/>
+            <Unit value="MechaSlowling"/>
+            <Flags index="AutoCast" value="1"/>
+            <Flags index="AutoCastOn" value="1"/>
+        </InfoArray>
+        <Alert value="NoAlert"/>
+    </CAbilTrain>
+    <CAbilTrain id="CreepTowerTrain">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Flags index="AutoCastOffOwnerLeave" value="0"/>
+        <Flags index="IgnoreUnitCost" value="1"/>
+        <Flags index="WaitForFood" value="0"/>
+        <InfoArray index="Train1" Effect="ApplyPrecursorSpawner">
+            <Vital index="Energy" value="50"/>
+            <Charge>
+                <CountMax value="2"/>
+                <CountStart value="2"/>
+                <CountUse value="1"/>
+                <Link value="Abil/TrainSpawner"/>
+                <Location value="Unit"/>
+            </Charge>
+            <Cooldown Link="Abil/TrainSpawner"/>
+            <Button DefaultButtonFace="BuildMechaling"/>
+            <Unit value="Mechaling"/>
+            <Flags index="AutoCast" value="1"/>
+        </InfoArray>
+        <Alert value="NoAlert"/>
+    </CAbilTrain>
     <CAbilEffectInstant id="UpgradeKarax">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Cost>
@@ -777,7 +1163,13 @@
     </CAbilEffectInstant>
     <CAbilEffectTarget id="ForceField">
         <Cost index="0">
-            <Vital index="Energy" value="10"/>
+            <Vital index="Energy" value="0"/>
+            <Charge>
+                <CountMax value="5"/>
+                <CountUse value="1"/>
+                <TimeStart value="10"/>
+                <TimeUse value="10"/>
+            </Charge>
         </Cost>
     </CAbilEffectTarget>
     <CAbilTransport id="HerculesTransport">
@@ -1784,6 +2176,22 @@
         <Arc value="360"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="RefreshNetwork"/>
     </CAbilEffectTarget>
+    <CAbilEffectInstant id="RegenerateShields">
+        <Alignment value="Positive"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Zerg"/>
+        <Effect index="0" value="ShieldRegenAB"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Energy" value="50"/>
+            <Cooldown TimeUse="7"/>
+        </Cost>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="Visible;Ally,Neutral,Enemy"/>
+        <AutoCastValidatorArray value="MechaHydraliskhasnoMechaShieldactive"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UseJUICEtoRegenerateShield" Requirements="HaveMechalingJUICEModule"/>
+    </CAbilEffectInstant>
     <CAbilEffectInstant id="ZCCCenter">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="SpawnFromCenter" Requirements="SpawnFromCenter"/>
@@ -1795,27 +2203,32 @@
     <CAbilResearch id="ZCCResearch">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <InfoArray index="Research1" Upgrade="ZergArmor1">
-            <Resource index="Minerals" value="200"/>
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="50"/>
             <Resource index="Terrazine" value="800"/>
             <Button DefaultButtonFace="ResearchZergArmor13v3" Requirements="ResearchZergArmor1"/>
         </InfoArray>
         <InfoArray index="Research2" Upgrade="ZergArmor2">
-            <Resource index="Minerals" value="475"/>
+            <Resource index="Minerals" value="240"/>
+            <Resource index="Vespene" value="120"/>
             <Resource index="Terrazine" value="1900"/>
             <Button DefaultButtonFace="ResearchZergArmor23v3" Requirements="ResearchZergArmor2"/>
         </InfoArray>
         <InfoArray index="Research3" Upgrade="ZergArmor3">
-            <Resource index="Minerals" value="1075"/>
+            <Resource index="Minerals" value="550"/>
+            <Resource index="Vespene" value="275"/>
             <Resource index="Terrazine" value="4300"/>
             <Button DefaultButtonFace="ResearchZergArmor33v3" Requirements="ResearchZergArmor3"/>
         </InfoArray>
         <InfoArray index="Research4" Upgrade="ZergArmor4">
-            <Resource index="Minerals" value="1325"/>
+            <Resource index="Minerals" value="650"/>
+            <Resource index="Vespene" value="325"/>
             <Resource index="Terrazine" value="5300"/>
             <Button DefaultButtonFace="ResearchZergArmor43v3" Requirements="ResearchZergArmor4"/>
         </InfoArray>
         <InfoArray index="Research5" Upgrade="ZergArmor5">
-            <Resource index="Minerals" value="2000"/>
+            <Resource index="Minerals" value="1000"/>
+            <Resource index="Vespene" value="500"/>
             <Resource index="Terrazine" value="8000"/>
             <Button DefaultButtonFace="ResearchZergArmor53v3" Requirements="ResearchZergArmor5"/>
         </InfoArray>
@@ -1826,35 +2239,43 @@
         </InfoArray>
         <InfoArray index="Research7" Upgrade="ZergMovement">
             <Resource index="Vespene" value="175"/>
+            <Resource index="Terrazine" value="1400"/>
             <Charge CountMax="1"/>
             <Button DefaultButtonFace="ResearchZergMovement3v3" Requirements="UpgradeZergMovement"/>
         </InfoArray>
-        <InfoArray index="Research8" Upgrade="ZergSpecializationSlowlingPackedMass">
+        <InfoArray index="Research8" Upgrade="ZergSpecializationSlowlingPackedMass3v3">
             <Resource index="Vespene" value="75"/>
-            <Button DefaultButtonFace="ResearchPackedMass3v3" Requirements="ResearchZergSpecialtySlowlingPackedMass"/>
+            <Resource index="Terrazine" value="600"/>
+            <Button DefaultButtonFace="ResearchPackedMass3v3" Requirements="ResearchZergSpecialtySlowlingPackedMass3v3"/>
         </InfoArray>
         <InfoArray index="Research9" Upgrade="ZergSpecializationCreeperFerocity">
             <Resource index="Vespene" value="100"/>
+            <Resource index="Terrazine" value="800"/>
             <Button DefaultButtonFace="ResearchFerocity3v3" Requirements="ResearchZergSpecialtyCreeperFerocity"/>
         </InfoArray>
         <InfoArray index="Research10" Upgrade="ZergSpecializationStrikelingDualHit">
             <Resource index="Vespene" value="175"/>
+            <Resource index="Terrazine" value="1400"/>
             <Button DefaultButtonFace="ResearchDualHit3v3" Requirements="ResearchZergSpecialtyStrikelingDualHit"/>
         </InfoArray>
         <InfoArray index="Research11" Upgrade="ZergSpecializationTanklingBankling">
             <Resource index="Vespene" value="50"/>
+            <Resource index="Terrazine" value="400"/>
             <Button DefaultButtonFace="ResearchBankling3v3" Requirements="ResearchZergSpecialtyTanklingBankling"/>
         </InfoArray>
         <InfoArray index="Research12" Upgrade="TarInfection">
             <Resource index="Vespene" value="125"/>
+            <Resource index="Terrazine" value="1000"/>
             <Button DefaultButtonFace="ResearchTarInfection3v3" Requirements="ResearchTarInfectionRequirement"/>
         </InfoArray>
         <InfoArray index="Research13" Upgrade="TarSpawn">
-            <Resource index="Vespene" value="188"/>
+            <Resource index="Vespene" value="185"/>
+            <Resource index="Terrazine" value="1500"/>
             <Button DefaultButtonFace="ResearchTarSpawn3v3" Requirements="ResearchTarSpawnRequirement"/>
         </InfoArray>
         <InfoArray index="Research14" Upgrade="PrimalRapidRespawn">
             <Resource index="Vespene" value="375"/>
+            <Resource index="Terrazine" value="3000"/>
             <Button DefaultButtonFace="ResearchPrimalRapidRespawn3v3" Requirements="ResearchPrimalRapidRespawnRequirement"/>
         </InfoArray>
     </CAbilResearch>
@@ -1873,6 +2294,7 @@
         <InfoArray index="Train1">
             <Resource index="Minerals" value="-150"/>
             <Vital index="Energy" value="300"/>
+            <Cooldown TimeUse="1"/>
             <Button DefaultButtonFace="SpawnHydralisk"/>
             <Unit value="HydraliskLevel23v3"/>
         </InfoArray>
@@ -2544,7 +2966,7 @@
             <Flags index="AutoCast" value="1"/>
         </InfoArray>
         <InfoArray index="Train19" Time="2">
-            <Button DefaultButtonFace="HydraliskDefender3v3" Requirements="ZergControlCenter"/>
+            <Button DefaultButtonFace="HydraliskDefender3v3" Requirements="HydraliskDefender"/>
             <Unit value="HydraliskDefender3v3"/>
             <Flags index="AutoCast" value="1"/>
         </InfoArray>
@@ -2908,7 +3330,7 @@
             <Vital index="Life" value="0"/>
             <Cooldown TimeUse="30"/>
         </Cost>
-        <CmdButtonArray index="Execute" DefaultButtonFace="MarineOvercharge" Requirements="UseOvercharge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MarineOvercharge"/>
     </CAbilEffectInstant>
     <CAbilResearch id="ResearchStatic">
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -2998,7 +3420,7 @@
         <InfoArray index="Build22" Unit="BarracksTechReactor" Time="10">
             <Button DefaultButtonFace="BuildEventTechCenter" Requirements="OnlyOneEventTechCenter"/>
         </InfoArray>
-        <InfoArray index="Build23" Unit="TerrazineTank" Time="45">
+        <InfoArray index="Build23" Unit="TerrazineTank">
             <Button DefaultButtonFace="BuildTerrazineGenerator" Requirements="TerrazineConverter"/>
         </InfoArray>
         <FlagArray index="PeonFidgetAcross" value="1"/>
@@ -3321,7 +3743,7 @@
             <ValidatorArray index="0" removed="1"/>
         </InfoArray>
         <InfoArray index="Build4" Unit="StrikelingSpawner">
-            <Button DefaultButtonFace="MutateintoStrikelingSpawner" State="Available" Requirements="StrikelingSpawnerCap"/>
+            <Button DefaultButtonFace="MutateintoStrikelingSpawner" State="Available" Requirements=""/>
         </InfoArray>
         <InfoArray index="Build5" Unit="TanklingSpawner" Time="35">
             <Button DefaultButtonFace="MutateintoTankerSpawner" State="Available" Requirements=""/>
@@ -3356,14 +3778,20 @@
         <InfoArray index="Build19" Unit="CreepTumor2" Time="20">
             <Button DefaultButtonFace="MutateintoCreepTumor" Requirements="RequirementArmor1"/>
         </InfoArray>
-        <InfoArray index="Build22" Unit="NydusCanal" Time="20">
-            <Button DefaultButtonFace="NydusCanal" Requirements="RequirementArmor1"/>
+        <InfoArray index="Build22" Unit="NydusCanal" Time="40">
+            <Button DefaultButtonFace="NydusCanal"/>
         </InfoArray>
-        <InfoArray index="Build23" Unit="NydusCanalCreeper" Time="40">
-            <Button DefaultButtonFace="SummonNydusCanalCreeper" Requirements="CreepTower"/>
+        <InfoArray index="Build23" Unit="NydusCanalCreeper" Time="20">
+            <Button DefaultButtonFace="SummonNydusCanalCreeper" Requirements="RequirementArmor1"/>
         </InfoArray>
-        <InfoArray index="Build24" Unit="SpineCrawlerMecha" Time="30">
+        <InfoArray index="Build24" Unit="SpineCrawlerMecha" Time="15">
             <Button DefaultButtonFace="MutateintoMechaSpineCrawler" Requirements="RequirementArmor1"/>
+        </InfoArray>
+        <InfoArray index="Build25" Unit="MechaTerrazineExtractor" Time="40">
+            <Button DefaultButtonFace="MutateintoMechaTerrazineExtractor" Requirements="MechaTerrazineExtractor"/>
+        </InfoArray>
+        <InfoArray index="Build26" Unit="MechaTechlab" Time="60">
+            <Button DefaultButtonFace="MutateintoMechaTechlab" Requirements="OnlyOneMechaTechlab"/>
         </InfoArray>
     </CAbilBuild>
     <CAbilEffectTarget id="TransferEnergyPylon" parent="heal">
@@ -3786,6 +4214,13 @@
         <InfoArray index="Train6" Time="7">
             <Button DefaultButtonFace="SpawnInfestor" Requirements="RequirementInfestor"/>
             <Unit value="InfestorZergHex2"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Resource index="Minerals" value="25"/>
+            <Resource index="Terrazine" value="50"/>
+            <Vital index="Energy" value="150"/>
+            <Button DefaultButtonFace="BuildMechaHydralisk" Requirements="RequirementArmor1"/>
+            <Unit value="MechaHydralisk"/>
         </InfoArray>
         <RefundFraction Charge="0"/>
     </CAbilTrain>

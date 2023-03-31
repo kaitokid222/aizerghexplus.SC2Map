@@ -23,6 +23,10 @@
         <ScaleMax value="1.000000,1.000000,1.000000"/>
         <ScaleMin value="1.000000,1.000000,1.000000"/>
     </CModel>
+    <CModel id="EvolutionChamber_Mecha_Placement">
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+    </CModel>
     <CModel id="HydraliskImpaler">
         <ScaleMax value="0.650000,0.650000,0.650000"/>
         <ScaleMin value="0.650000,0.650000,0.650000"/>
@@ -1316,8 +1320,8 @@
         <Model value="Assets\Doodads\SpacePlatformVentsZerged\SpacePlatformVentsZerged.m3"/>
         <LowQualityModel value="SpacePlatformVentsUnit"/>
         <Lighting value="FarmFieldPlacement"/>
-        <ScaleMax value="0.500000,0.500000,0.500000"/>
-        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
         <VariationCount value="2"/>
     </CModel>
     <CModel id="HellfortDeath" parent="HatcheryDeathBase">
@@ -3162,6 +3166,18 @@
             <Payload value="Merc_Sapper_Foley"/>
         </Events>
     </CModel>
+    <CModel id="NydusCanal_Mecha_Placement">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="PhotonCannonPlacement">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="PhotonCannonSplat">
+        <ScaleMax value="0.550000,0.550000,0.550000"/>
+        <ScaleMin value="0.550000,0.550000,0.550000"/>
+    </CModel>
     <CModel id="Probius" parent="ProbeBase">
         <Model value="assets\units\storm_hero_probius_terran.m3"/>
         <RequiredAnims value="assets\units\storm_hero_probius_requiredanims.m3a"/>
@@ -3181,6 +3197,12 @@
         <TextureDeclares Prefix="glow_">
             <Adaptions Slot="generic01"/>
         </TextureDeclares>
+    </CModel>
+    <CModel id="MechaShield" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\ArcadeVikingShield\ArcadeVikingShield.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.700000,0.700000,1.200000"/>
+        <ScaleMin value="0.700000,0.700000,1.200000"/>
     </CModel>
     <CModel id="VdayLoveBuff" parent="PersistentSpellFX">
         <Model value="assets\units\storm_fx_medic_love_healingbeam_buffactive.m3"/>

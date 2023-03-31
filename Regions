@@ -3,187 +3,187 @@
     <region id="3">
         <name value="player 1"/>
         <shape type="rect">
-            <quad value="23.0932,166.7575,43.093,186.7573"/>
+            <quad value="0.7658,169.166,20.7656,189.1657"/>
         </shape>
     </region>
     <region id="10">
         <name value="geysers p1"/>
         <shape type="rect">
-            <quad value="22.382,157.649,68.382,197.6486"/>
+            <quad value="20.9658,139.0134,66.9658,203.0131"/>
         </shape>
     </region>
     <region id="4">
         <name value="player 2"/>
         <shape type="rect">
-            <quad value="109.538,220.8442,129.5378,240.844"/>
+            <quad value="121.1235,234.8125,141.1232,254.8122"/>
         </shape>
     </region>
     <region id="5">
         <name value="player 3"/>
         <shape type="rect">
-            <quad value="197.0974,166.686,217.0971,186.6857"/>
+            <quad value="235.2736,169.1511,255.2734,189.151"/>
         </shape>
     </region>
     <region id="6">
         <name value="player 4"/>
         <shape type="rect">
-            <quad value="23.785,69.5764,43.7846,89.5761"/>
+            <quad value="0.0634,66.1074,20.0632,86.1071"/>
         </shape>
     </region>
     <region id="7">
         <name value="player 5"/>
         <shape type="rect">
-            <quad value="110.865,15.3337,130.8647,35.3334"/>
+            <quad value="113.9445,0.9694,133.9443,20.9692"/>
         </shape>
     </region>
     <region id="8">
         <name value="player 6"/>
         <shape type="rect">
-            <quad value="197.0988,68.997,217.0986,88.9968"/>
+            <quad value="234.2817,67.3234,254.2814,87.3232"/>
         </shape>
     </region>
     <region id="2">
         <name value="geysers p2"/>
         <shape type="rect">
-            <quad value="97.4145,205.1704,143.4145,245.1701"/>
+            <quad value="87.1577,195.4487,157.1577,235.4484"/>
         </shape>
     </region>
     <region id="9">
         <name value="geysers p3"/>
         <shape type="rect">
-            <quad value="171.8547,158.0454,217.8547,198.0451"/>
+            <quad value="189.2036,137.7751,235.2036,201.775"/>
         </shape>
     </region>
     <region id="11">
         <name value="geysers p4"/>
         <shape type="rect">
-            <quad value="23.1086,58.737,69.1086,98.7368"/>
+            <quad value="15.3593,54.4492,61.3593,118.449"/>
         </shape>
     </region>
     <region id="12">
         <name value="geysers p5"/>
         <shape type="rect">
-            <quad value="95.9147,15.0903,141.9147,55.09"/>
+            <quad value="97.887,21.0424,167.887,61.0422"/>
         </shape>
     </region>
     <region id="13">
         <name value="geysers p6"/>
         <shape type="rect">
-            <quad value="171.6352,58.7653,217.6352,98.7651"/>
+            <quad value="195.1811,54.0207,241.1811,118.0205"/>
         </shape>
     </region>
     <region id="14">
         <name value="spawner player zerg 2"/>
         <shape type="rect">
-            <quad value="115.6853,177.1657,124.1403,181.5595"/>
+            <quad value="123.7307,182.6884,132.1857,187.0822"/>
         </shape>
     </region>
     <region id="15">
         <name value="spawner player zerg 5"/>
         <shape type="rect">
-            <quad value="115.8576,74.701,124.3127,79.0947"/>
+            <quad value="123.851,69.2026,132.3061,73.5964"/>
         </shape>
     </region>
     <region id="16">
         <name value="spawner player zerg 6"/>
         <shape type="rect">
-            <quad value="154.9072,90.244,159.8264,98.2062"/>
+            <quad value="178.813,82.9924,183.7321,90.9548"/>
         </shape>
     </region>
     <region id="17">
         <name value="spawner player zerg 3"/>
         <shape type="rect">
-            <quad value="155.004,158.2082,159.923,166.1706"/>
+            <quad value="179.0688,165.0776,183.988,173.04"/>
         </shape>
     </region>
     <region id="18">
         <name value="spawner player zerg 1"/>
         <shape type="rect">
-            <quad value="79.9912,158.2275,84.9104,166.19"/>
+            <quad value="72.6606,165.1396,77.5798,173.102"/>
         </shape>
     </region>
     <region id="19">
         <name value="spawner player zerg 4"/>
         <shape type="rect">
-            <quad value="80.0043,90.265,84.9235,98.2272"/>
+            <quad value="72.6054,83.2302,77.5246,91.1926"/>
         </shape>
     </region>
     <region id="1">
         <name value="zerg highground"/>
         <shape type="rect">
-            <quad value="103.8762,112.938,136.116,143.3078"/>
+            <quad value="111.2558,112.8603,143.4956,143.2302"/>
         </shape>
     </region>
     <region id="20">
         <name value="zergbase 2"/>
         <shape type="rect">
-            <quad value="103.9077,153.617,135.8657,178.2368"/>
+            <quad value="111.8757,152.7392,143.8337,177.3591"/>
         </shape>
     </region>
     <region id="21">
         <name value="zergbase 5"/>
         <shape type="rect">
-            <quad value="103.9414,78.2382,135.8994,102.8581"/>
+            <quad value="112.4702,78.2343,144.4282,102.8542"/>
         </shape>
     </region>
     <region id="22">
         <name value="zergbase 4"/>
         <shape type="rect">
-            <quad value="85.2932,89.06,103.413,128.3193"/>
+            <quad value="90.2995,77.3327,108.4194,116.592"/>
         </shape>
     </region>
     <region id="23">
         <name value="zergbase 1"/>
         <shape type="rect">
-            <quad value="85.3395,128.4184,103.4594,167.6777"/>
+            <quad value="90.389,139.1777,108.5087,178.437"/>
         </shape>
     </region>
     <region id="24">
         <name value="zergbase 3"/>
         <shape type="rect">
-            <quad value="136.3183,127.9201,154.4382,167.1794"/>
+            <quad value="143.462,137.789,161.5817,177.0483"/>
         </shape>
     </region>
     <region id="25">
         <name value="zergbase 6"/>
         <shape type="rect">
-            <quad value="136.3642,88.576,154.4841,127.8352"/>
+            <quad value="147.722,78.3715,165.8417,117.6308"/>
         </shape>
     </region>
     <region id="26">
         <name value="Bonus 1"/>
         <shape type="rect">
-            <quad value="54.8928,122.7912,62.8991,133.9548"/>
+            <quad value="53.1767,122.8078,61.183,133.9714"/>
         </shape>
     </region>
     <region id="27">
         <name value="Bonus 2"/>
         <shape type="rect">
-            <quad value="177.0456,122.053,185.052,133.2165"/>
+            <quad value="194.9252,122.403,202.9316,133.5666"/>
         </shape>
     </region>
     <region id="28">
         <name value="Bonus 3"/>
         <shape type="rect">
-            <quad value="164.9865,122.6062,172.993,133.7697"/>
+            <quad value="177.4277,131.4863,185.434,142.65"/>
         </shape>
     </region>
     <region id="29">
         <name value="Bonus 4"/>
         <shape type="rect">
-            <quad value="66.9802,122.5043,74.9865,133.668"/>
+            <quad value="61.671,126.5024,69.6772,137.666"/>
         </shape>
     </region>
     <region id="30">
         <name value="Bonus 5"/>
         <shape type="rect">
-            <quad value="83.9521,182.0917,91.9584,193.2553"/>
+            <quad value="90.78,176.348,98.7863,187.5114"/>
         </shape>
     </region>
     <region id="31">
         <name value="Bonus 6"/>
         <shape type="rect">
-            <quad value="148.239,183.0598,156.2453,194.2233"/>
+            <quad value="152.1784,184.8415,160.1848,196.0051"/>
         </shape>
     </region>
     <region id="32">
@@ -201,49 +201,49 @@
     <region id="34">
         <name value="Bonus 9"/>
         <shape type="rect">
-            <quad value="177,138.1491,185.0063,149.3127"/>
+            <quad value="181.0988,142.0715,189.1052,153.235"/>
         </shape>
     </region>
     <region id="35">
         <name value="Bonus 10"/>
         <shape type="rect">
-            <quad value="177.0405,106.8381,185.0468,118.0017"/>
+            <quad value="186.0583,110.4733,194.0646,121.637"/>
         </shape>
     </region>
     <region id="36">
         <name value="Bonus 11"/>
         <shape type="rect">
-            <quad value="55.0185,106.8112,63.025,117.9748"/>
+            <quad value="62.0187,114.5905,70.0251,125.7541"/>
         </shape>
     </region>
     <region id="37">
         <name value="Bonus 12"/>
         <shape type="rect">
-            <quad value="55.002,138.2221,63.0083,149.3857"/>
+            <quad value="60.7846,138.134,68.791,149.2976"/>
         </shape>
     </region>
     <region id="38">
         <name value="Bonus 13"/>
         <shape type="rect">
-            <quad value="141.024,183.0463,149.0302,194.21"/>
+            <quad value="150.9704,174.4013,158.9768,185.565"/>
         </shape>
     </region>
     <region id="39">
         <name value="Bonus 14"/>
         <shape type="rect">
-            <quad value="156.4282,183.0532,164.4345,194.2167"/>
+            <quad value="160.182,184.9072,168.1882,196.0708"/>
         </shape>
     </region>
     <region id="40">
         <name value="Bonus 15"/>
         <shape type="rect">
-            <quad value="91.958,183.1333,99.9643,194.2968"/>
+            <quad value="91.154,188.278,99.1604,199.4416"/>
         </shape>
     </region>
     <region id="41">
         <name value="Bonus 16"/>
         <shape type="rect">
-            <quad value="79.0397,182.0034,87.0461,193.167"/>
+            <quad value="82.5314,186.1533,90.5378,197.317"/>
         </shape>
     </region>
     <region id="42">
@@ -273,49 +273,49 @@
     <region id="46">
         <name value="Bonus 21"/>
         <shape type="rect">
-            <quad value="61.879,106.766,69.8852,117.9296"/>
+            <quad value="64.3312,109.381,72.3376,120.5446"/>
         </shape>
     </region>
     <region id="47">
         <name value="Bonus 22"/>
         <shape type="rect">
-            <quad value="61.9484,138.1677,69.9548,149.3312"/>
+            <quad value="69.7138,138.242,77.7202,149.4055"/>
         </shape>
     </region>
     <region id="48">
         <name value="Bonus 23"/>
         <shape type="rect">
-            <quad value="170.0268,138.23,178.0332,149.3935"/>
+            <quad value="185.7,133.1875,193.7062,144.351"/>
         </shape>
     </region>
     <region id="49">
         <name value="Bonus 24"/>
         <shape type="rect">
-            <quad value="169.9626,107.0473,177.969,118.211"/>
+            <quad value="178.5971,109.3847,186.6035,120.5483"/>
         </shape>
     </region>
     <region id="50">
         <name value="Bonus 25"/>
         <shape type="rect">
-            <quad value="72.8237,178.1215,80.83,189.2851"/>
+            <quad value="73.561,175.468,81.5673,186.6315"/>
         </shape>
     </region>
     <region id="51">
         <name value="Bonus 26"/>
         <shape type="rect">
-            <quad value="80.8374,178.0554,88.8437,189.219"/>
+            <quad value="81.761,175.2463,89.7673,186.41"/>
         </shape>
     </region>
     <region id="52">
         <name value="Bonus 27"/>
         <shape type="rect">
-            <quad value="147.8962,177.2,155.9025,188.3635"/>
+            <quad value="160.1218,173.8395,168.1281,185.0031"/>
         </shape>
     </region>
     <region id="53">
         <name value="Bonus 28"/>
         <shape type="rect">
-            <quad value="155.8403,177.2656,163.8466,188.4291"/>
+            <quad value="168.1147,175.7053,176.121,186.869"/>
         </shape>
     </region>
     <region id="54">
@@ -345,109 +345,109 @@
     <region id="58">
         <name value="Bonus 33"/>
         <shape type="rect">
-            <quad value="67.0483,117.1237,75.0546,128.2873"/>
+            <quad value="69.638,115.4592,77.6442,126.6228"/>
         </shape>
     </region>
     <region id="59">
         <name value="Bonus 34"/>
         <shape type="rect">
-            <quad value="67.021,128.199,75.0273,139.3625"/>
+            <quad value="69.7482,126.3627,77.7546,137.5263"/>
         </shape>
     </region>
     <region id="60">
         <name value="Bonus 35"/>
         <shape type="rect">
-            <quad value="165.0004,128.061,173.0068,139.2246"/>
+            <quad value="186.1213,122.172,194.1276,133.3356"/>
         </shape>
     </region>
     <region id="61">
         <name value="Bonus 36"/>
         <shape type="rect">
-            <quad value="164.9187,117.234,172.925,128.3974"/>
+            <quad value="178.472,120.5363,186.4782,131.7"/>
         </shape>
     </region>
     <region id="62">
         <name value="Bonus 37"/>
         <shape type="rect">
-            <quad value="46.8662,111.072,54.8725,122.2355"/>
+            <quad value="53.044,111.5834,61.0502,122.747"/>
         </shape>
     </region>
     <region id="63">
         <name value="Bonus 38"/>
         <shape type="rect">
-            <quad value="47.0156,134.2194,55.022,145.383"/>
+            <quad value="52.316,135.6137,60.3222,146.7773"/>
         </shape>
     </region>
     <region id="64">
         <name value="Bonus 39"/>
         <shape type="rect">
-            <quad value="184.978,134.181,192.9843,145.3444"/>
+            <quad value="194.2102,133.609,202.2165,144.7724"/>
         </shape>
     </region>
     <region id="65">
         <name value="Bonus 40"/>
         <shape type="rect">
-            <quad value="184.9992,110.9885,193.0056,122.152"/>
+            <quad value="194.9484,110.6203,202.9548,121.784"/>
         </shape>
     </region>
     <region id="66">
         <name value="player 3 yard exception"/>
         <shape type="rect">
-            <quad value="172.1267,157.3105,184.9724,170.9304"/>
+            <quad value="207.1743,137.2832,220.02,150.903"/>
         </shape>
     </region>
     <region id="67">
         <name value="player 1 yard exception"/>
         <shape type="rect">
-            <quad value="55.341,157.362,68.1867,170.982"/>
+            <quad value="37.8215,137.7905,50.6672,151.4104"/>
         </shape>
     </region>
     <region id="68">
         <name value="player 4 yard exception"/>
         <shape type="rect">
-            <quad value="54.9191,85.5122,67.765,99.132"/>
+            <quad value="36.1704,105.8288,49.016,119.4487"/>
         </shape>
     </region>
     <region id="69">
         <name value="player 6 yard exception"/>
         <shape type="rect">
-            <quad value="172.1206,85.5112,184.9663,99.131"/>
+            <quad value="208.4238,105.3034,221.2695,118.9233"/>
         </shape>
     </region>
     <region id="70">
         <name value="MRE 1"/>
         <shape type="rect">
-            <quad value="36.0444,174.163,39.7478,178.0058"/>
+            <quad value="12.2504,174.234,15.9538,178.0766"/>
         </shape>
     </region>
     <region id="71">
         <name value="MRE 2"/>
         <shape type="rect">
-            <quad value="118.0815,223.14,121.785,226.9826"/>
+            <quad value="125.925,240.0922,129.6284,243.935"/>
         </shape>
     </region>
     <region id="72">
         <name value="MRE 3"/>
         <shape type="rect">
-            <quad value="199.5634,174.2033,203.2668,178.0461"/>
+            <quad value="240.0966,174.0627,243.8,177.9055"/>
         </shape>
     </region>
     <region id="73">
         <name value="MRE 4"/>
         <shape type="rect">
-            <quad value="36.822,78.236,40.5253,82.0788"/>
+            <quad value="12.25,78.2358,15.9533,82.0786"/>
         </shape>
     </region>
     <region id="74">
         <name value="MRE 5"/>
         <shape type="rect">
-            <quad value="118.0905,28.8818,121.794,32.7246"/>
+            <quad value="126.1323,12.2734,129.8356,16.1162"/>
         </shape>
     </region>
     <region id="75">
         <name value="MRE 6"/>
         <shape type="rect">
-            <quad value="199.6672,78.31,203.3706,82.1528"/>
+            <quad value="239.9855,78.1535,243.689,81.9963"/>
         </shape>
     </region>
     <region id="76">
@@ -467,73 +467,73 @@
     <region id="78">
         <name value="outer base area 2"/>
         <shape type="rect">
-            <quad value="102.121,184.3076,139.8327,204.2978"/>
+            <quad value="108.3183,171.8151,146.03,191.8054"/>
         </shape>
     </region>
     <region id="79">
         <name value="outer base area 5"/>
         <shape type="rect">
-            <quad value="98.6765,55.4477,136.3881,75.438"/>
+            <quad value="109.7375,61.2675,147.4492,81.2578"/>
         </shape>
     </region>
     <region id="80">
         <name value="outer base area 4"/>
         <shape type="rect">
-            <quad value="55.612,60.513,84.516,114.4711"/>
+            <quad value="61.272,62.77,90.176,116.7282"/>
         </shape>
     </region>
     <region id="81">
         <name value="outer base area 1"/>
         <shape type="rect">
-            <quad value="54.397,141.8308,83.301,195.789"/>
+            <quad value="67.2016,133.7985,96.1057,187.7568"/>
         </shape>
     </region>
     <region id="82">
         <name value="outer base area 3"/>
         <shape type="rect">
-            <quad value="155.8322,139.4514,184.7363,193.4096"/>
+            <quad value="160.5195,138.4924,189.4235,192.4506"/>
         </shape>
     </region>
     <region id="83">
         <name value="outer base area 6"/>
         <shape type="rect">
-            <quad value="154.4904,63.2897,183.3945,117.248"/>
+            <quad value="165.9218,64.616,194.826,118.5742"/>
         </shape>
     </region>
     <region id="84">
         <name value="ZergHighgroundRight"/>
         <shape type="rect">
-            <quad value="138.5903,120.1052,158.7634,136.2675"/>
+            <quad value="146.7797,120.4624,166.953,136.6247"/>
         </shape>
     </region>
     <region id="85">
         <name value="ZergHighgroundLeft"/>
         <shape type="rect">
-            <quad value="82.5893,120.071,101.582,136.0671"/>
+            <quad value="89.0932,120.0705,108.086,136.0666"/>
         </shape>
     </region>
     <region id="86">
         <name value="ZCC Bottom Left"/>
         <shape type="rect">
-            <quad value="84.9897,117.0422,96.9897,118.0136"/>
+            <quad value="67.001,126.015,75.001,126.9863"/>
         </shape>
     </region>
     <region id="87">
         <name value="ZCC Top Left"/>
         <shape type="rect">
-            <quad value="84.9821,138.074,96.9821,139.0454"/>
+            <quad value="67,129.0153,75,129.9868"/>
         </shape>
     </region>
     <region id="88">
         <name value="ZCC Top Right"/>
         <shape type="rect">
-            <quad value="142.979,138.0964,154.979,139.0678"/>
+            <quad value="165,129.0146,173,129.986"/>
         </shape>
     </region>
     <region id="89">
         <name value="ZCC Bottom Right"/>
         <shape type="rect">
-            <quad value="143.0175,117.03,155.0175,118.0014"/>
+            <quad value="165,126.0163,173,126.9877"/>
         </shape>
     </region>
     <region id="90">
@@ -546,6 +546,84 @@
         <name value="ZCC Top Center"/>
         <shape type="rect">
             <quad value="109.004,129.1547,130.9992,130.12"/>
+        </shape>
+    </region>
+    <region id="92">
+        <name value="strikelings tl"/>
+        <shape type="rect">
+            <quad value="100.8903,158.7524,117.9204,172.9235"/>
+        </shape>
+    </region>
+    <region id="93">
+        <name value="strikelings tr"/>
+        <shape type="rect">
+            <quad value="138.7578,158.755,153.8598,172.8264"/>
+        </shape>
+    </region>
+    <region id="94">
+        <name value="strikelings br"/>
+        <shape type="rect">
+            <quad value="136.8376,82.3293,153.8676,96.5004"/>
+        </shape>
+    </region>
+    <region id="95">
+        <name value="strikelings bl"/>
+        <shape type="rect">
+            <quad value="101.9404,83.3974,117.0424,97.469"/>
+        </shape>
+    </region>
+    <region id="96">
+        <name value="terran pushing area 3"/>
+        <shape type="rect">
+            <quad value="176.3325,148.0217,190.3251,182.6735"/>
+        </shape>
+    </region>
+    <region id="97">
+        <name value="terran pushing area 1"/>
+        <shape type="rect">
+            <quad value="60.3547,150.6567,74.3474,185.3085"/>
+        </shape>
+    </region>
+    <region id="98">
+        <name value="terran pushing area 4"/>
+        <shape type="rect">
+            <quad value="60.2836,75.1472,74.2763,109.799"/>
+        </shape>
+    </region>
+    <region id="99">
+        <name value="terran pushing area 6"/>
+        <shape type="rect">
+            <quad value="180.9526,73.6123,194.9453,108.2641"/>
+        </shape>
+    </region>
+    <region id="100">
+        <name value="terran pushing area 2"/>
+        <shape type="rect">
+            <quad value="112.3342,186.8554,142.2915,196.0207"/>
+        </shape>
+    </region>
+    <region id="101">
+        <name value="terran pushing area 5"/>
+        <shape type="rect">
+            <quad value="112.1572,61.1523,142.1145,70.3176"/>
+        </shape>
+    </region>
+    <region id="102">
+        <name value="firewall"/>
+        <shape type="rect">
+            <quad value="15.0798,127.5,225.0798,128.5"/>
+        </shape>
+    </region>
+    <region id="103">
+        <name value="firewall s"/>
+        <shape type="rect">
+            <quad value="15.0893,125.4826,225.0893,127.4826"/>
+        </shape>
+    </region>
+    <region id="104">
+        <name value="firewall n"/>
+        <shape type="rect">
+            <quad value="15.075,128.4797,225.075,130.4797"/>
         </shape>
     </region>
 </Regions>

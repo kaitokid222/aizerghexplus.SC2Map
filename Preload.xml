@@ -14,36 +14,32 @@
 <Abil id="TransferEnergyBattery"/>
 <Actor id="SYSTEM_ActorConfig"/>
 <Actor id="Aiur_Zerg_Ribs" Variations="1,2,3"/>
-<Actor id="DOM_Fire_Large_Long"/>
-<Actor id="Elsecaro_Bush1x1" Variations="1,2,3"/>
+<Actor id="FishSchool"/>
 <Actor id="Snow"/>
 <Actor id="ZergRoots" Variations="0,1,2"/>
 <Actor id="ZergWallDecorTwoHigh" Variations="8,9,10,11,13,14,15"/>
-<Actor id="Bush" Variations="0,1,2,3,4"/>
 <Actor id="CharAshWeather"/>
-<Actor id="CliffSpires" Variations="0,1"/>
+<Actor id="FishBlackFinMako" Variations="0,1"/>
 <Actor id="RainEmitterLarge"/>
-<Actor id="RedstoneRockSpires" Variations="0,1,2,3,4"/>
-<Actor id="Rock" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
-<Actor id="RockLarge" Variations="0,2,4,8,14,16,17,20,23"/>
-<Actor id="RockSmall" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
+<Actor id="RockSmall" Variations="0"/>
 <Actor id="XilSpireLarge" Variations="3"/>
 <Actor id="GainBountyTextKicker"/>
 <Behavior id="InfestedVisual"/>
+<Behavior id="HUGSAlgorythm"/>
+<Behavior id="SiegeTankExpertise"/>
+<Behavior id="HiveKilled"/>
+<Behavior id="LarvaCountDummyStack"/>
 <Behavior id="StrikelingShielded3v3"/>
-<Behavior id="InfusedRoachCountDummyStack"/>
+<Behavior id="UnstableCore"/>
 <Behavior id="FirelingCountDummyStack"/>
 <Behavior id="ChaosLordStacks"/>
 <Behavior id="BloodStacks"/>
 <Behavior id="ConsumedBlood"/>
 <Behavior id="ConsumedBlood2"/>
 <Behavior id="ConsumedBlood3"/>
-<Behavior id="BanelingCountDummyStack"/>
 <Behavior id="SpawnFromCenter"/>
 <Behavior id="SpawnFromLeft"/>
 <Behavior id="SpawnFromRight"/>
-<Behavior id="TorraliskRoachCountDummyStack"/>
-<Behavior id="EarlyDeathDebuff"/>
 <Behavior id="MedivacTimedLife"/>
 <Behavior id="GeneratorUpgrades1"/>
 <Behavior id="GeneratorUpgrades2"/>
@@ -121,7 +117,6 @@
 <Behavior id="ZergRallyPlus"/>
 <Behavior id="ZergRallyMinus"/>
 <Behavior id="ZergRallyEqual"/>
-<Behavior id="SpawnProtection"/>
 <Effect id="SpawnerUpgradeUpgradeSet2"/>
 <Effect id="RavagerArtilleryCP"/>
 <Light id="Agria"/>
@@ -136,12 +131,14 @@
 <Unit id="Medivac"/>
 <Unit id="Pylon"/>
 <Unit id="Stargate"/>
+<Unit id="DarkShrine"/>
 <Unit id="RoboticsBay"/>
 <Unit id="Zealot"/>
 <Unit id="WarpPrism"/>
 <Unit id="Probe"/>
 <Unit id="SpineCrawler"/>
 <Unit id="Overlord"/>
+<Unit id="NydusCanal"/>
 <Unit id="Viper"/>
 <Unit id="ShieldBattery"/>
 <Unit id="VespeneGeyser"/>
@@ -167,8 +164,9 @@
 <Unit id="KaraxChampion"/>
 <Unit id="ZerglingCarbot"/>
 <Unit id="KerriganVoid"/>
-<Unit id="AiurRockDebris2x2"/>
 <Unit id="PickupNovaTechnology"/>
+<Unit id="MineralTrader"/>
+<Unit id="GasTrader"/>
 <Unit id="SiegeTank2"/>
 <Unit id="RavatorSpawner"/>
 <Unit id="Torralisk"/>
@@ -193,18 +191,12 @@
 <Unit id="Battery"/>
 <Unit id="AdvancedBattery"/>
 <Unit id="HighDensityBattery"/>
-<Unit id="Defender"/>
 <Unit id="InfestedBuilder"/>
 <Unit id="Probius"/>
 <Unit id="TerranGate"/>
 <Unit id="Wall2"/>
 <Unit id="FruitFarm"/>
-<Unit id="CowFarm"/>
-<Unit id="Armory2"/>
-<Unit id="ConstructionYard"/>
 <Unit id="PrimalRoach2"/>
-<Unit id="MineralTrader"/>
-<Unit id="GasTrader"/>
 <Unit id="Ultralisk2"/>
 <Unit id="Sheep2"/>
 <Unit id="Cow2"/>
@@ -233,6 +225,7 @@
 <Unit id="Candy3"/>
 <Unit id="Candy4"/>
 <Unit id="Candy5"/>
+<Unit id="Mutalisk3v3"/>
 <Unit id="MeleeMinionHell"/>
 <Unit id="RangedMinionHell"/>
 <Unit id="WizardMinion"/>
@@ -246,10 +239,6 @@
 <Unit id="Pumpkin3"/>
 <Unit id="Candy"/>
 <Unit id="SpaceBalls"/>
-<Unit id="DynamicNearbyResource4x4"/>
-<Unit id="DynamicNearbyResource6x6"/>
-<Unit id="DynamicNearbyResource21x21"/>
-<Unit id="TrafficTower"/>
 <Unit id="RocksBE"/>
 <Unit id="DestructibleRock6x6I"/>
 <Unit id="LargeSpineCrawler"/>

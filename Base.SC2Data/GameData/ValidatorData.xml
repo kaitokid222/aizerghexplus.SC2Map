@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CValidatorPlayerRequirement id="HaveUnstableCore">
+        <Find value="1"/>
+        <Value value="HaveUnstableCore"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveHUGS">
+        <Find value="1"/>
+        <Value value="HaveHUGS"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitType id="IsPhotonCannonKarax">
+        <Value value="KaraxPhotonCannon"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsPhotonCannonOrKhaydarinMonolith">
+        <CombineArray value="IsPhotonCannonKarax"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareVital id="LifeLE50Perc">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LE"/>
+        <Type value="Fraction"/>
+        <Value value="0.5"/>
+    </CValidatorUnitCompareVital>
     <CValidatorUnitFilters id="AdeptTargetIsNotDead">
         <WhichUnit Effect="ItalisLM"/>
         <Filters value="-;Dead"/>
@@ -41,6 +61,24 @@
         <AreaArray Compare="GT" Count="1" Radius="3"/>
         <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
     </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareVital id="HasShieldLeft">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GT"/>
+        <Vital value="Shields"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareBehaviorCount id="MechaHydraliskhasnoMechaShieldactive">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LT"/>
+        <Value value="1"/>
+        <Behavior value="MechaShieldActive"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorPlayerRequirement id="NotHaveJUICEUpgrade">
+        <Value value="HaveMechalingJUICEModule"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveJUICEUpgrade">
+        <Find value="1"/>
+        <Value value="HaveMechalingJUICEModule"/>
+    </CValidatorPlayerRequirement>
     <CValidatorLocationCompareRange id="NydusMinimumDistance">
         <Compare value="GE"/>
         <Range value="15"/>
@@ -320,6 +358,10 @@
         <CombineArray index="2" removed="1"/>
         <CombineArray index="3" removed="1"/>
     </CValidatorCombine>
+    <CValidatorPlayerRequirement id="MechaUltraliskResearched">
+        <Find value="1"/>
+        <Value value="HaveMechaUltralisk"/>
+    </CValidatorPlayerRequirement>
     <CValidatorLocationCompareCliffLevel id="ScannerSweepTargetCliffLevel0"/>
     <CValidatorLocationCompareCliffLevel id="ScannerSweepTargetCliffLevel1">
         <Compare value="LE"/>
@@ -358,6 +400,10 @@
         <Find value="1"/>
         <Value value="SiegeTankHasPlasmaShards"/>
     </CValidatorPlayerRequirement>
+    <CValidatorCombine id="SiegeTankNotBetterVersion">
+        <CombineArray value="SiegeTankBetterVersion"/>
+        <Negate value="1"/>
+    </CValidatorCombine>
     <CValidatorUnitCompareBehaviorCount id="SiegeTankPlasmaCannonNoMarker">
         <Behavior value="SiegeTankPlasmaCannonHitMarker"/>
         <RequireCasterUnit Value="Caster"/>
@@ -549,6 +595,12 @@
         <CombineArray value="TargetIsBlood"/>
         <CombineArray value="TargetIsBloodBig"/>
     </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="MechalinghasUnstableCore">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="1"/>
+        <Behavior value="UnstableCore"/>
+    </CValidatorUnitCompareBehaviorCount>
     <CValidatorCombine id="UnitisChaos">
         <CombineArray value="IsChaosMarine"/>
         <CombineArray value="IsChaosLord"/>

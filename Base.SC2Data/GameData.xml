@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Includes>
-    <Catalog path="GameData/ZHex/Zerg.xml"/>
-    <Catalog path="GameData/ZHex/Terran.xml"/>
-    <Catalog path="GameData/ZHex/Barracks.xml"/>
-    <Catalog path="GameData/ZHex/Gateway.xml"/>
-    <Catalog path="GameData/ZHex/Heroes.xml"/>
-</Includes>
