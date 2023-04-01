@@ -191,11 +191,14 @@
 <Unit id="Battery"/>
 <Unit id="AdvancedBattery"/>
 <Unit id="HighDensityBattery"/>
+<Unit id="Defender"/>
 <Unit id="InfestedBuilder"/>
 <Unit id="Probius"/>
 <Unit id="TerranGate"/>
 <Unit id="Wall2"/>
 <Unit id="FruitFarm"/>
+<Unit id="Armory2"/>
+<Unit id="ConstructionYard"/>
 <Unit id="PrimalRoach2"/>
 <Unit id="Ultralisk2"/>
 <Unit id="Sheep2"/>

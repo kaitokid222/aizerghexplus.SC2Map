@@ -26,12 +26,15 @@
     <PatchNote>
         <Version>
             <Value>0.1</Value>
+            <Value>0.2</Value>
         </Version>
         <Date>
             <Value>3/31/2023</Value>
+            <Value>4/1/2023</Value>
         </Date>
         <Notes>
             <Value>1</Value>
+            <Value>2,3</Value>
         </Notes>
     </PatchNote>
     <Preload>
