@@ -2288,6 +2288,7 @@
             <Charge Link="Abil/ZaGaraDeepTunnel"/>
             <Cooldown Link="Abil/ZaGaraDeepTunnel" TimeUse="30"/>
         </Cost>
+        <TargetFilters value="Ground;Player,Ally,Neutral,Enemy"/>
     </CAbilEffectTarget>
     <CAbilTrain id="ZagaraTrain">
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -3785,7 +3786,7 @@
             <Button DefaultButtonFace="SummonNydusCanalCreeper" Requirements="RequirementArmor1"/>
         </InfoArray>
         <InfoArray index="Build24" Unit="SpineCrawlerMecha" Time="15">
-            <Button DefaultButtonFace="MutateintoMechaSpineCrawler" Requirements="RequirementArmor1"/>
+            <Button DefaultButtonFace="MutateintoMechaSpineCrawler"/>
         </InfoArray>
         <InfoArray index="Build25" Unit="MechaTerrazineExtractor" Time="40">
             <Button DefaultButtonFace="MutateintoMechaTerrazineExtractor" Requirements="MechaTerrazineExtractor"/>
@@ -4219,7 +4220,7 @@
             <Resource index="Minerals" value="25"/>
             <Resource index="Terrazine" value="100"/>
             <Vital index="Energy" value="150"/>
-            <Button DefaultButtonFace="BuildMechaHydralisk" Requirements="RequirementArmor1"/>
+            <Button DefaultButtonFace="BuildMechaHydralisk"/>
             <Unit value="MechaHydralisk"/>
         </InfoArray>
         <RefundFraction Charge="0"/>
